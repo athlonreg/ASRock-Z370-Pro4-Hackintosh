@@ -19,7 +19,7 @@ Clover EFI Bootloader for ASRock Z370 Pro4
 
 ![](https://ws1.sinaimg.cn/large/0068A0TFly1g3sq955ae4j312s0pu46z.jpg)
 
-![](https://ws1.sinaimg.cn/large/0068A0TFly1g3sq9xvmguj312s0t8gv6.jpg)
+![](https://ws1.sinaimg.cn/large/0068A0TFly1g3t5p1gdt8j312s0t8gve.jpg)
 
 ![](https://ws1.sinaimg.cn/large/0068A0TFly1g3sq9m13ojj312s0nmn48.jpg)
 
@@ -35,7 +35,7 @@ Clover EFI Bootloader for ASRock Z370 Pro4
 
 ![](https://ws1.sinaimg.cn/large/0068A0TFly1g3sqc33p69j31xw1owqpi.jpg)
 
-![](https://ws1.sinaimg.cn/large/0068A0TFly1g3sqc9vwv8j31xw1owwzr.jpg)
+![](https://ws1.sinaimg.cn/large/0068A0TFly1g3t5qy7fu5j31xw1owkcu.jpg)
 
 ![](https://ws1.sinaimg.cn/large/0068A0TFly1g3sqcq15dqj31xw1owb0w.jpg)
 
@@ -43,7 +43,7 @@ Clover EFI Bootloader for ASRock Z370 Pro4
 
 ![](https://ws1.sinaimg.cn/large/0068A0TFly1g3sqek915wj31xw1owtzu.jpg)
 
-![](https://ws1.sinaimg.cn/large/0068A0TFly1g3sqey0iwwj317c0zwgzv.jpg)
+![](https://ws1.sinaimg.cn/large/0068A0TFly1g3t5qcyricj317c0zwh0u.jpg)
 
 ![](https://ws1.sinaimg.cn/large/0068A0TFly1g3sqf7vdy1j317c0xw12o.jpg)
 
