@@ -10,8 +10,8 @@ Clover EFI Bootloader for ASRock Z370 Pro4
 硬盘							三星 SM961 x 2  西部数据蓝盘 2TB + 1TB
 显卡							华擎 AMD Radeon RX Vega 56 8GB (已刷 Vega 64)
 显示器							宏碁 VG240YU 23.8寸 2K 75Hz IPS
-无线网卡						博通 BCM94360CD
-以太网卡						英特尔 I219V
+无线网卡							博通 BCM94360CD
+以太网卡							英特尔 I219V
 声卡							ALC892
 ```
 
