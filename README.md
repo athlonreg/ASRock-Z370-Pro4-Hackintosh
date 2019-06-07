@@ -61,6 +61,8 @@ Clover EFI Bootloader for ASRock Z370 Pro4
 
 ![](https://ws1.sinaimg.cn/large/0068A0TFly1g3sqhpzxfdj30f60hitbo.jpg)
 
+![](https://ws1.sinaimg.cn/large/0068A0TFly1g3sqzzxblxj317c11gtis.jpg)
+
 ## 更新日志
 
 - 2019-6-7
