@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DisplayProductID</key>
+	<integer>1679</integer>
+	<key>DisplayProductName</key>
+	<string>iMac Pro Retina</string>
+	<key>DisplayVendorID</key>
+	<integer>1138</integer>
+	<key>IODisplayEDID</key>
+	<data>
+	AP///////wAGECeSHwAjFiMWAQS1PCJ4Im+xp1VMniUMUFSlSwBxT4GAqcCpQNHA4QDR
+	AAEBTdAAoPBwPoAwIDUAYV0hAAAaAAAA/wBDMDJKOTAwWEYyR0MKAAAA/ABUaHVuZGVy
+	Ym9sdAogAAAA/QA4TB5TEQAKICAgICAgAQ4CAx3xUBAfIAUUBBMSEQMCFhUHBgEjCR8H
+	gwEAAFZeAKCgoClQMCA1AGFdIQAAGqNmAKDwcB+AMCA1AGFdIQAAGk3QAKDwcD6AMCA1
+	AGFdIQAAGgI6gBhxOC1AWCwlAGFdIQAAHr8WAKCAOBNAMCA6AGFdIQAAGgAAAAAAAAAA
+	Sg==
+	</data>
+	<key>scale-resolutions</key>
+	<array>
+		<data>
+		AAAPAAAACHAAAAABACAAAA==
+		</data>
+		<data>
+		AAANIAAAB2IAAAABACAAAA==
+		</data>
+		<data>
+		AAAMgAAABwgAAAABACAAAA==
+		</data>
+		<data>
+		AAALwAAABpwAAAABACAAAA==
+		</data>
+		<data>
+		AAAKAAAABaAAAAABACAAAA==
+		</data>
+		<data>
+		AAAJAAAABRAAAAABACAAAA==
+		</data>
+		<data>
+		AAAIAAAABIAAAAABACAAAA==
+		</data>
+		<data>
+		AAAHgAAABDgAAAABACAAAA==
+		</data>
+		<data>
+		AAAGkAAAA7EAAAABACAAAA==
+		</data>
+		<data>
+		AAAGQAAAA4QAAAABACAAAA==
+		</data>
+		<data>
+		AAAF4AAAA04AAAABACAAAA==
+		</data>
+		<data>
+		AAAFAAAAAtAAAAABACAAAA==
+		</data>
+		<data>
+		AAAEgAAAAogAAAABACAAAA==
+		</data>
+	</array>
+	<key>target-default-ppmm</key>
+	<real>10.151057399999999</real>
+</dict>
+</plist>
