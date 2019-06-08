@@ -63,13 +63,11 @@ Clover EFI Bootloader for ASRock Z370 Pro4
 
 ![](https://ws1.sinaimg.cn/large/0068A0TFly1g3sqzzxblxj317c11gtis.jpg)
 
-## 更新日志
+## 致谢
 
-- 2019-6-7
-  - 支持 macOS Catalina
-  - 声卡完全正常
-  - 显卡完全正常，可硬解
-  - 无线网卡完全正常
-  - 以太网卡完全正常
-  - 蓝牙完全正常
+- wyhtc
+- [vit9696](https://github.com/vit9696)
+- [Acidanthera](https://github.com/acidanthera)
+- [RehabMan](https://github.com/RehabMan)
+- so on ...
 
