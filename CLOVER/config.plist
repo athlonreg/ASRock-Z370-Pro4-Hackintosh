@@ -16,9 +16,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>oAqTU1RBUwE=</data>
+					<data>
+					oAqTU1RBUwE=
+					</data>
 					<key>Replace</key>
-					<data>oAqRCv8L//8=</data>
+					<data>
+					oAqRCv8L//8=
+					</data>
 				</dict>
 			</array>
 			<key>ReuseFFFF</key>
@@ -132,13 +136,17 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>g/sPDw==</data>
+				<data>
+				g/sPDw==
+				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>com.apple.iokit.IOUSBHostFamily</string>
 				<key>Replace</key>
-				<data>g/s/Dw==</data>
+				<data>
+				g/s/Dw==
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -146,13 +154,17 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>g/kPDw==</data>
+				<data>
+				g/kPDw==
+				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
-				<data>g/k/Dw==</data>
+				<data>
+				g/k/Dw==
+				</data>
 			</dict>
 		</array>
 	</dict>
@@ -202,7 +214,7 @@
 		<key>Mobile</key>
 		<false/>
 		<key>PlatformFeature</key>
-		<string>0xFFFF</string>
+		<string>0x20</string>
 		<key>ProductName</key>
 		<string>iMacPro1,1</string>
 		<key>SerialNumber</key>
