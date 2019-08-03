@@ -1,7 +1,15 @@
 ## 更新日志
 
-- 2019-6-30
+- 2019-8-3
   
+  - CLOVER 更新至 v2.5k r5033
+  - 基于 CLOVER 5033 更新所有 EFI 驱动
+  - 修复 iMac Pro 1,1 关于本机内存不显示问题
+  - WhateverGreen 更新至 1.3.0
+  - Lilu 更新至 1.3.7
+  - AppleALC 更新至 1.3.9
+  - VirtualSMC 更新至 1.0.6
+- 2019-6-30
   - CLOVER 更新至 4978
   - 基于 CLOVER 4978 更新所有 EFI 驱动
   - 移除 ACPI -> origin 目录
