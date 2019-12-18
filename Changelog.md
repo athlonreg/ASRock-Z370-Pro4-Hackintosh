@@ -1,7 +1,20 @@
 ## 更新日志
 
-- 2019-8-3
+- 2019-12-18
   
+  - CLOVER 更新至 v2.5k r5099
+  - 更新所有 EFI 驱动
+  - 使用 HFSPlus.efi 替代 VBoxHfs.efi
+  - 备份 SSDT-VEGA 的 DSL 文件
+  - 修改 SSDT-VEGA 的 OEM Table ID 为 VEGA
+  - WhateverGreen 更新至 1.3.5
+  - VirtualSMC 更新至 1.0.9
+  - Lilu 更新至 1.4.0
+  - USBInjectAll 更新至 0.7.1
+  - AppleALC 更新至 1.4.5
+  - IntelMausi 更新至 1.0.2
+  - 初始化 OpenCore 引导
+- 2019-8-3
   - CLOVER 更新至 v2.5k r5033
   - 基于 CLOVER 5033 更新所有 EFI 驱动
   - 修复 iMac Pro 1,1 关于本机内存不显示问题
