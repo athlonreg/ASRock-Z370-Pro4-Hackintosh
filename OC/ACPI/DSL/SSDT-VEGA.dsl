@@ -181,6 +181,18 @@ DefinitionBlock ("", "SSDT", 2, "hack", "VEGA", 0)
                             }
                         })
                     }
+                    
+                    Method (_STA,0,NotSerialized)
+                    {
+                        If (_OSI ("Darwin"))
+                        {
+                            Return (0x0F)
+                        }
+                        Else
+                        {
+                            Return (Zero)
+                        }
+                    }
                 }
 
                 Device (HDAU)
@@ -228,6 +240,18 @@ DefinitionBlock ("", "SSDT", 2, "hack", "VEGA", 0)
                                 "onboard-1"
                             }
                         })
+                    }
+                    
+                    Method (_STA,0,NotSerialized)
+                    {
+                        If (_OSI ("Darwin"))
+                        {
+                            Return (0x0F)
+                        }
+                        Else
+                        {
+                            Return (Zero)
+                        }
                     }
                 }
             }
