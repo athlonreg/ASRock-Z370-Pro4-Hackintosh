@@ -4,8 +4,6 @@
 <dict>
 	<key>ACPI</key>
 	<dict>
-		<key>AutoMerge</key>
-		<false/>
 		<key>DSDT</key>
 		<dict>
 			<key>Patches</key>
@@ -25,31 +23,9 @@
 					</data>
 				</dict>
 			</array>
-			<key>ReuseFFFF</key>
-			<false/>
 		</dict>
-		<key>DisableASPM</key>
-		<false/>
 		<key>FixHeaders</key>
 		<true/>
-		<key>SSDT</key>
-		<dict>
-			<key>DropOem</key>
-			<false/>
-			<key>Generate</key>
-			<dict>
-				<key>APLF</key>
-				<false/>
-				<key>APSN</key>
-				<false/>
-				<key>CStates</key>
-				<false/>
-				<key>PStates</key>
-				<false/>
-				<key>PluginType</key>
-				<true/>
-			</dict>
-		</dict>
 	</dict>
 	<key>Boot</key>
 	<dict>
