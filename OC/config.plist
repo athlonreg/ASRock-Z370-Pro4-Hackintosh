@@ -27,31 +27,23 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				oAqTU1RBUwE=
-				</data>
+				<data>oAqTU1RBUwE=</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>OemTableId</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Replace</key>
-				<data>
-				oAqRCv8L//8=
-				</data>
+				<data>oAqRCv8L//8=</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>
-				</data>
+				<data></data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -297,13 +289,15 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array/>
+		<array>
+			<string>\EFI\Microsoft\Boot\bootmgfw.efi</string>
+		</array>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleBehaviourOs</key>
-			<string></string>
+			<string>ForceGraphics</string>
 			<key>ConsoleBehaviourUi</key>
-			<string></string>
+			<string>ForceText</string>
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>HibernateMode</key>
@@ -313,7 +307,7 @@
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>Resolution</key>
-			<string></string>
+			<string>2560x1440</string>
 			<key>ShowPicker</key>
 			<true/>
 			<key>Timeout</key>
@@ -340,11 +334,11 @@
 				<key>Comment</key>
 				<string>Windows</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>Windows</string>
 				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,B0-45-1B-30-56-03-23-00)/HD(1,GPT,4EE50653-0C94-4C0F-9E69-724FD69E5F26,0x28,0x8A7D8)/\EFI\Microsoft\Boot\bootmgfw.efi</string>
+				<string>PciRoot(0x0)/Pci(0x1B,0x4)/Pci(0x0,0x0)/NVMe(0x1,26-78-B0-81-C9-38-25-00)/HD(1,GPT,24F0413C-EA67-454B-98F0-6435C0AF3036,0x1000,0x31000)/\EFI\Microsoft\Boot\bootmgfw.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -352,11 +346,11 @@
 				<key>Comment</key>
 				<string>CLOVER</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>CLOVER</string>
 				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,B0-45-1B-30-56-03-23-00)/HD(1,GPT,4EE50653-0C94-4C0F-9E69-724FD69E5F26,0x28,0x8A7D8)/\EFI\CLOVER\CLOVERX64.efi</string>
+				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,72-7F-B0-81-C9-38-25-00)/HD(2,GPT,BCAA07D3-56F8-4D5D-9C57-4208E1BD0878,0x64028,0x1DC8F260)/VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0A14A757CDA5114D8D72E8B9F9E56B81)//\EFI\CLOVER\CLOVERX64.efi</string>
 			</dict>
 		</array>
 		<key>Security</key>
@@ -409,22 +403,16 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>UIScale</key>
-				<data>
-				AQ==
-				</data>
+				<data>AQ==</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 -v</string>
+				<string>keepsyms=1 debug=0x100</string>
 				<key>csr-active-config</key>
-				<data>
-				5wMAAA==
-				</data>
+				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
-				<data>
-				emgtSGFuczoyNTI=
-				</data>
+				<data>emgtSGFuczoyNTI=</data>
 			</dict>
 		</dict>
 	</dict>
@@ -437,9 +425,7 @@
 			<key>MLB</key>
 			<string>C02705802QXJG361M</string>
 			<key>ROM</key>
-			<data>
-			x0F6bLwB
-			</data>
+			<data>x0F6bLwB</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
@@ -501,7 +487,7 @@
 			<key>AppleUserInterfaceTheme</key>
 			<false/>
 			<key>ConsoleControl</key>
-			<false/>
+			<true/>
 			<key>DataHub</key>
 			<false/>
 			<key>DeviceProperties</key>
@@ -524,9 +510,9 @@
 			<key>IgnoreInvalidFlexRatio</key>
 			<false/>
 			<key>IgnoreTextInGraphics</key>
-			<false/>
+			<true/>
 			<key>ProvideConsoleGop</key>
-			<false/>
+			<true/>
 			<key>ReconnectOnResChange</key>
 			<false/>
 			<key>ReleaseUsbOwnership</key>
@@ -538,7 +524,7 @@
 			<key>RequestBootVarRouting</key>
 			<true/>
 			<key>SanitiseClearScreen</key>
-			<false/>
+			<true/>
 			<key>UnblockFsConnect</key>
 			<false/>
 		</dict>
