@@ -302,13 +302,15 @@
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>PickerMode</key>
-			<string>Builtin</string>
+			<string>External</string>
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>HideSelf</key>
 			<false/>
 			<key>PickerAttributes</key>
 			<integer>0</integer>
+			<key>PickerAudioAssist</key>
+			<false/>
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
@@ -343,7 +345,7 @@
 				<key>Name</key>
 				<string>Windows</string>
 				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1B,0x4)/Pci(0x0,0x0)/NVMe(0x1,26-78-B0-81-C9-38-25-00)/HD(1,GPT,7D0C7DFE-A730-4B34-819B-81719C9363D3,0x1000,0x95000)/\EFI\Microsoft\Boot\bootmgfw.efi</string>
+				<string>PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)/NVMe(0x1,00-00-00-00-00-00-00-00)/HD(1,GPT,ABB19A3A-CCC6-4B1D-8653-4845BF3E3FCE,0x1000,0x96000)/\EFI\Microsoft\Boot\bootmgfw.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -357,7 +359,7 @@
 				<key>Name</key>
 				<string>CLOVER</string>
 				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1B,0x4)/Pci(0x0,0x0)/NVMe(0x1,26-78-B0-81-C9-38-25-00)/HD(1,GPT,7D0C7DFE-A730-4B34-819B-81719C9363D3,0x1000,0x95000)/\EFI\CLOVER\CLOVERX64.efi</string>
+				<string>PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)/NVMe(0x1,00-00-00-00-00-00-00-00)/HD(1,GPT,ABB19A3A-CCC6-4B1D-8653-4845BF3E3FCE,0x1000,0x96000)/\EFI\CLOVER\CLOVERX64.efi</string>
 			</dict>
 		</array>
 		<key>Security</key>
@@ -399,13 +401,13 @@
 				<key>Auxiliary</key>
 				<true/>
 				<key>Comment</key>
-				<string>VerifyMsrE2</string>
+				<string>Dump Audio Codec</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
-				<string>VerifyMsrE2</string>
+				<string>HdaCodecDump</string>
 				<key>Path</key>
-				<string>VerifyMsrE2.efi</string>
+				<string>HdaCodecDump.efi</string>
 			</dict>
 		</array>
 	</dict>
@@ -428,6 +430,8 @@
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>emgtSGFuczoyNTI=</data>
+				<key>SystemAudioVolume</key>
+				<data>Rg==</data>
 			</dict>
 		</dict>
 		<key>WriteFlash</key>
@@ -472,6 +476,8 @@
 			<string>HFSPlus.efi</string>
 			<string>ApfsDriverLoader.efi</string>
 			<string>FwRuntimeServices.efi</string>
+			<string>AudioDxe.efi</string>
+			<string>BootLiquor.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -492,6 +498,23 @@
 			<key>TimerResolution</key>
 			<integer>50000</integer>
 		</dict>
+		<key>Audio</key>
+		<dict>
+			<key>AudioSupport</key>
+			<true/>
+			<key>AudioDevice</key>
+			<string>PciRoot(0x0)/Pci(0x1f,0x3)</string>
+			<key>AudioCodec</key>
+			<integer>0</integer>
+			<key>AudioOut</key>
+			<integer>2</integer>
+			<key>MinimumVolume</key>
+			<integer>20</integer>
+			<key>PlayChime</key>
+			<true/>
+			<key>VolumeAmplifier</key>
+			<integer>0</integer>
+		</dict>
 		<key>Output</key>
 		<dict>
 			<key>TextRenderer</key>
@@ -508,6 +531,8 @@
 			<true/>
 			<key>DirectGopRendering</key>
 			<true/>
+			<key>DirectGopCacheMode</key>
+			<integer>-1</integer>
 			<key>ReconnectOnResChange</key>
 			<false/>
 			<key>ReplaceTabWithSpace</key>
@@ -517,6 +542,8 @@
 		</dict>
 		<key>Protocols</key>
 		<dict>
+			<key>AppleAudio</key>
+			<true/>
 			<key>AppleBootPolicy</key>
 			<false/>
 			<key>AppleEvent</key>
