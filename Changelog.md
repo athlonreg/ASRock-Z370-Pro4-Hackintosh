@@ -1,7 +1,16 @@
 ## 更新日志
 
+- 2020-4-7
+
+  - CLOVER 更新至 v2.5k r5109
+  - Bump OpenCore version to 0.5.8
+  - Update AppleALC to 1.4.8
+  - Update Lilu to 1.4.3
+  - Update WhateverGreen to 1.3.8
+  - Update VirtualSMC to 1.1.2
+  - Update NVMeFix to 1.0.2
+  - Use MacPro7,1
 - 2019-12-18
-  
   - CLOVER 更新至 v2.5k r5099
   - 更新所有 EFI 驱动
   - 使用 HFSPlus.efi 替代 VBoxHfs.efi
