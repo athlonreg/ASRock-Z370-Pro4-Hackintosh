@@ -1,7 +1,14 @@
 ## 更新日志
 
+- 2020-11-3
+  - Update OpenCore to 0.6.3
+  - Update AppleALC to 1.5.4
+  - Update Lilu to 1.4.9
+  - Update WhateverGreen to 1.4.4
+  - Update VirtualSMC to 1.1.8
+  - Update IntelMausi to 1.0.5
+  - Update USBInjectAll to 0.7.5
 - 2020-4-7
-
   - CLOVER 更新至 v2.5k r5109
   - Bump OpenCore version to 0.5.8
   - Update AppleALC to 1.4.8
