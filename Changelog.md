@@ -1,5 +1,12 @@
 ## 更新日志
 
+- 2020-12-8
+  
+  - Update OpenCore to 0.6.4
+  - Update AppleALC to 1.5.5
+  - Update Lilu to 1.5.0
+  - Update WhateverGreen to 1.4.5
+  - Update VirtualSMC to 1.1.9
 - 2020-11-3
   - Update OpenCore to 0.6.3
   - Update AppleALC to 1.5.4
