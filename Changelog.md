@@ -1,7 +1,14 @@
 ## 更新日志
 
+- 2021-1-6
+  - Update OpenCore to 0.6.5
+  - Update AppleALC to 1.5.6
+  - Update WhateverGreen to 1.4.6
+  - Update IntelMausi to 1.0.5
+  - Update NVMeFix to 1.0.5
+  - Used RestrictEvents
+  - Removed MacProMemoryNotificationDisabler
 - 2020-12-8
-  
   - Update OpenCore to 0.6.4
   - Update AppleALC to 1.5.5
   - Update Lilu to 1.5.0
