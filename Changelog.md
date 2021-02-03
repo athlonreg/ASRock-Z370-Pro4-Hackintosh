@@ -1,5 +1,12 @@
 ## 更新日志
 
+- 2021-2-3
+  - Update AppleALC to 1.5.7
+  - Update Lilu to 1.5.1
+  - Update OcBinayData
+  - Update OpenCore to 0.6.6
+  - Update VirtualSMC to 1.2.0
+  - Update WhateverGreen to 1.4.7
 - 2021-1-6
   - Update OpenCore to 0.6.5
   - Update AppleALC to 1.5.6
