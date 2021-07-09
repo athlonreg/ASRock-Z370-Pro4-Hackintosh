@@ -1,5 +1,15 @@
 ## 更新日志
 
+- 2021-7-9
+  - Update AppleALC to 1.6.2
+  - Update IntelMausi to 1.0.7
+  - Update Lilu to 1.5.4
+  - Update NVMeFix to 1.0.9
+  - Update RestrictEvents to 1.0.3
+  - Update VirtualSMC to 1.2.5
+  - Update WhateverGreen to 1.5.1
+  - Update OpenCore to 0.7.1
+
 - 2021-3-2
   - Update AppleALC to 1.5.8
   - Update OpenCore to 0.6.7
