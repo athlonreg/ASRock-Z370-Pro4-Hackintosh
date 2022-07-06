@@ -1,5 +1,13 @@
 ## 更新日志
 
+- 2022-7-6
+  - Update AppleALC to 1.7.3
+  - Update Lilu to 1.6.1
+  - Update NVMeFix to 1.1.0
+  - Update RestrictEvents to 1.0.8
+  - Update VirtualSMC to 1.3.0
+  - Update WhateverGreen to 1.6.0
+  - Update OpenCore to 0.8.2
 - 2022-4-22
   - Update AppleALC to 1.7.1
   - Update OpenCore to 0.8.0
