@@ -3,7 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
+<<<<<<< HEAD
 	<string>23H420</string>
+=======
+	<string>23H311</string>
+>>>>>>> 122a7dfbfc24ea9224ce0277cdfe7337c5134840
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,7 +21,11 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
+<<<<<<< HEAD
 	<string>1.3.6</string>
+=======
+	<string>1.3.5</string>
+>>>>>>> 122a7dfbfc24ea9224ce0277cdfe7337c5134840
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,7 +33,11 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
+<<<<<<< HEAD
 	<string>1.3.6</string>
+=======
+	<string>1.3.5</string>
+>>>>>>> 122a7dfbfc24ea9224ce0277cdfe7337c5134840
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>

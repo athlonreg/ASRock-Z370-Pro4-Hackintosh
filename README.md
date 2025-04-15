@@ -3,17 +3,19 @@ Hackintosh EFI Bootloader for ASRock Z370 Pro4
 
 ## 详细配置
 
-```properties
-处理器							英特尔 Core i7-8700 3.2GHz 六核心十二线程
-主板							华擎 Z370 Pro4
-内存							海盗船 DDR4 3200MHz 16GB x 2
-硬盘							三星 SM961 256GB、海康威视 C2000 Pro 1TB、西部数据蓝盘 2TB
-显卡							华擎 AMD Radeon RX Vega 56 8GB (已刷 Vega 64)
-显示器							华硕 VG258QR 24.5寸 1080P 165Hz
-无线网卡							博通 BCM94360CD
-以太网卡							英特尔 I219V
-声卡							ALC892
-```
+| 类型     | 配置                                                       |
+| -------- | ---------------------------------------------------------- |
+| 处理器   | 英特尔 Core i7-8700 3.2GHz 六核心十二线程                  |
+| 主板     | 华擎 Z370 Pro4                                             |
+| 内存     | 海盗船 DDR4 3200MHz 16GB x 2                               |
+| 硬盘     | 三星 SM961 256GB、海康威视 C2000 Pro 1TB、西部数据蓝盘 2TB |
+| 显卡     | 华擎 AMD Radeon RX Vega 56 8GB (已刷 Vega 64)              |
+| 显示器   | 华硕 VG258QR 24.5寸 1080P 165Hz                            |
+| 无线网卡 | Intel BE200                                                |
+| 以太网卡 | Intel I219V + RTL8125 2.5G                                 |
+| 声卡     | ALC892                                                     |
+
+
 
 ## BIOS
 
